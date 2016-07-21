@@ -1,5 +1,5 @@
 package com.imooc.concurrent.base;
-
+//继承thread类
 public class KeyPersonThread extends Thread {
 
 	public void run(){
