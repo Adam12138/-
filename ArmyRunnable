@@ -17,11 +17,8 @@ public class ArmyRunnable implements Runnable {
 				//让出了处理器时间，下次该谁进攻还不一定呢！
 				Thread.yield();
 			}
-					
 		}
-		
 		System.out.println(Thread.currentThread().getName()+"结束了战斗！");
-
 	}
 
 }
